@@ -1,0 +1,9 @@
+{
+	"name": "firstdatafactoryIS",
+	"location": "southindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "5d067587-cea2-42c2-bfe1-5af76315229d",
+		"tenantId": "7c81c067-3389-4866-a140-063c1ea449f5"
+	}
+}

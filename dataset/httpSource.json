@@ -1,0 +1,23 @@
+{
+	"name": "httpSource",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LinkedServiceHTTP",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation",
+				"relativeUrl": "irfashaikh/azure-data-factory-labs/refs/heads/main/RawData/orders.csv"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
